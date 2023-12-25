@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+    background-color: azure;
+}
+
+.center-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.horizontal-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.fancy-font {
+    font-family: 'Indie Flower', cursive;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.vertical-separator-1 {
+    height: 10px;
+}
+
+.vertical-separator-2 {
+    height: 20px;
+}
+
+.vertical-separator-3 {
+    height: 30px;
+}
+
+.vertical-separator-10 {
+    height: 100px;
+}
+
+.vertical-separator-20 {
+    height: 200px;
+}
+
+.meImg1 {
+    width: 100vw;
+}
+
+select {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.supersmall {
+    font-size: 11px;
+}
